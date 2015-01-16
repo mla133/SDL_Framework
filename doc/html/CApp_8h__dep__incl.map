@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$CApp__OnCleanup_8cpp.html" title="CApp_OnCleanup.cpp" alt="" coords="5,83,152,112"/>
-<area shape="rect" href="$CApp__OnEvent_8cpp.html" title="CApp_OnEvent.cpp" alt="" coords="176,83,309,112"/>
-<area shape="rect" href="$CApp__OnInit_8cpp.html" title="CApp_OnInit.cpp" alt="" coords="333,83,453,112"/>
-<area shape="rect" href="$CApp__OnLoop_8cpp.html" title="CApp_OnLoop.cpp" alt="" coords="477,83,605,112"/>
-<area shape="rect" href="$CApp__OnRender_8cpp.html" title="CApp_OnRender.cpp" alt="" coords="629,83,771,112"/>
-</map>
