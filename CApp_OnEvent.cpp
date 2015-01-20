@@ -26,6 +26,11 @@ void CApp::OnLButtonDown(int mX, int mY)
 	}
 }
 
+void CApp::OnRButtonDown(int mX, int mY)
+{
+	Reset();
+}
+
 void CApp::OnExit() {
 	Running = false;
 }

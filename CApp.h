@@ -35,6 +35,7 @@ class CApp : public CEvent {
 	bool OnInit();
 	void OnEvent(SDL_Event* Event);
 	void OnLButtonDown(int mX, int mY);
+	void OnRButtonDown(int mX, int mY);
 	void OnExit();
 	void OnLoop();
 	void OnRender();
