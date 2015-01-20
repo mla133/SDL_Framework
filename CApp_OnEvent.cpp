@@ -33,4 +33,5 @@ void CApp::OnRButtonDown(int mX, int mY)
 
 void CApp::OnExit() {
 	Running = false;
+	printf("[X] Wins = %d, [O] Wins = %d\n", WinsX, WinsO);
 }

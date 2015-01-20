@@ -2,6 +2,7 @@
 #define CAPP_H
 
 #include <SDL/SDL.h>
+#include <stdio.h>
 #include "CEvent.h"
 #include "CSurface.h"
 
@@ -17,6 +18,10 @@ class CApp : public CEvent {
 
 	private:
 	int Grid[9];
+
+	private:
+	int WinsX;
+	int WinsO;
 
 	enum
 	{
@@ -44,5 +49,7 @@ class CApp : public CEvent {
 	public:
 	void Reset();
 	void SetCell(int ID, int Type);
+	void SetWinner();
+	void CongratWinner(int);
 };
 #endif
